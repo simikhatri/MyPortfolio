@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&family=Poppins:wght@400;600&display=swap');
+
+.Main {
+    background-color: #0B0C10;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.navbar {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    background-color: #0B0C10 !important;
+    box-shadow: 0px 4px 8px rgba(103, 252, 242, 0.6);
+    /* Adjust the shadow values as needed */
+}
+
+.navbar .mainLink .nav-link {
+    font-size: 1.15rem;
+}
+
+.navbar .nav-link {
+    color: #67fcf2;
+    font-size: 2rem;
+    margin-left: 0.6rem;
+}
+.navbar .nav-link:hover {
+    color: #46A29F;
+}
+.navbar .nav-link:active{
+    color: #46A29F;
+}
+.navbar .nav-link:focus{
+    color: #46A29F;
+}
+
+.navbar-toggler {
+    border: none;
+    border-radius: 0;
+    font-size: 27px;
+}
+
+/* Hero Section css */
+.Hero {
+    background-color: #0B0C10;
+    color: #46A29F;
+    height: 100%;
+    width: 100%;
+    padding: 8rem 4rem 6rem 8rem;
+}
+
+.Hero h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.Hero h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(103, 252, 242);
+}
+
+.Hero p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(103, 252, 242);
+}
+
+.Intro {
+    animation: slidUp .4s ease-in forwards .5s;
+}
+
+.proImage {
+    animation: slidIn .6s ease-in forwards .1s;
+}
+
+/* About Page Css */
+.aboutMe {
+    background-color: #0B0C10;
+    padding: 6rem 3rem 5rem 3rem;
+    color: white;
+}
+
+.allcont {
+    animation: slidIn .6s ease-in forwards .1s;
+}
+
+.AboutImage {
+    margin: 1rem 0;
+    animation: slidUp .6s ease-in forwards .1s;
+}
+
+.aboutContent {
+    margin: 1rem 5rem 2rem 0;
+}
+
+.aboutContent .paragraph {
+    text-align: justify;
+    color: #C5C6C8;
+}
+
+.aboutMe .resumebtn {
+    padding-top: 1.5rem;
+}
+
+.aboutContent h1 {
+    background: linear-gradient(to top, #46A29F, rgb(102, 252, 241));
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.resumebtn .btn {
+    background-color: #66FCF1;
+    color: #0B0C10;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.resumebtn .btn:hover {
+    background-color: transparent;
+    box-shadow: rgba(103, 252, 242, 0.4) 0px 10px 50px;
+    border: 1px solid #66FCF1;
+    color: #66FCF1;
+}
+
+.Contact {
+    display: flex;
+    color: #66FCF1;
+    font-size: 26px;
+    margin-top: 1.5rem;
+}
+
+/* MY Interests section */
+.interest {
+    margin: 4rem 3rem 2rem 7rem;
+}
+
+.interest h1 {
+    background: linear-gradient(to top, #46A29F, rgb(102, 252, 241));
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.dinterest {
+    display: flex;
+}
+
+.drew {
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(102, 252, 241);
+    padding-top: 0.7rem;
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: rgb(102, 252, 241);
+    transition: 0.5s;
+    animation: slidIn .6s ease-in forwards .5s;
+}
+
+.drew:hover {
+    background-color: rgb(102, 252, 239);
+    color: rgb(238, 238, 238);
+}
+
+.text {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* Contact Page css */
+.contact{
+    padding: 7rem 4rem 4rem 4rem;
+    background-color: #0B0C10;
+}
+.Contactheading{
+background: linear-gradient(to top, #46A29F, rgb(102, 252, 241));
+background-clip: text;
+color: transparent;
+font-weight: 700;
+margin-bottom: 4rem;
+text-align: center;
+}
+
+form .form-control {
+   background-color: transparent;
+   border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #67fcf2;
+  color: white;
+}
+form .form-control:focus{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: white;
+    border-bottom: 2px solid #67fcf2;
+ }
+ form .form-control:active{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #67fcf2;
+   
+ }
+label{
+    font-size: 17;
+    font-weight: 400;
+    color: #67fcf2;
+}
+/* Projects page css */
+.project{
+    padding: 6rem 3rem 2rem 7rem;
+    background-color: #0B0C10;
+}
+.prohead{
+background: linear-gradient(to top, #46A29F, rgb(102, 252, 241));
+background-clip: text;
+color: transparent;
+font-weight: 700;
+margin-bottom: 4rem;
+text-align: center;
+}
+.project .card {
+    border: none;
+    border-radius: 0;
+    background-color: #313741;
+    color: #67fcf2;
+    margin-bottom: 2rem;
+    box-shadow: rgba(126, 247, 233, 0.5) 0px 2px 8px 0px;
+}
+.project .card .card-img-top {
+       border-top-left-radius: 0; 
+     border-top-right-radius: 0;
+}
+.card .card-body .btn{
+    background-color: transparent;
+    color: #67fcf2;
+    border-radius: 0;
+    border: 2px solid #67fcf2;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 22px;
+}
+.card .card-body .btn .icon{
+    font-size: 22px;
+    padding-bottom: 3px;
+}
+.card .card-body .btn:hover{
+    box-shadow: rgba(103, 252, 242, 0.7) 0px 10px 50px;
+    background-color: rgb(103, 252, 242);
+    color: #0B0C10;
+}
+/* Footer CSS */
+.footer {
+    padding: 2rem 4rem;
+    background-color: #0B0C10;
+    color: #66FCF1;
+    text-align: center;
+}
+
+.footerlinks li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #313741;
+    margin: 2rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.footerlinks {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerlinks .foot-link {
+    font-size: 2rem;
+    color: #66FCF1;
+    padding-bottom: 0.7rem;
+}
+
+@keyframes slidUp {
+    0% {
+        transform: translateY(60px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slidIn {
+    0% {
+        transform: translateX(60px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .sociallinks {
+        flex-direction: row;
+    }
+
+    .interest {
+        margin: 4rem 0.5rem 2rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .aboutContent {
+        margin: 1rem 0.5rem 2rem 0;
+    }
+
+    .AboutImage .img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .aboutMe .resumebtn {
+        padding-top: 0.5rem;
+    }
+    .navbar .sociallinks{
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar .sociallinks .nav-link{
+        margin-left: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Hero {
+        background-color: #0B0C10;
+        color: #46A29F;
+        height: 100%;
+        width: 100%;
+        padding: 13rem 2rem 6rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Intro {
+        text-align: center;
+    }
+
+    .proImage {
+        display: none;
+    }
+
+    .allcont {
+        text-align: center;
+    }
+
+    .aboutContent .paragraph {
+        text-align: center;
+    }
+
+    .Contact {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .interest {
+        margin: 4rem 0rem 2rem 0rem;
+        text-align: center;
+    }
+
+    .interest h1 {
+        margin-bottom: 3rem;
+    }
+
+    .dinterest {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .aboutMe {
+        padding: 8rem 1rem 5rem 1rem;
+    }
+    .contact{
+        padding: 7rem 2rem 5rem 2rem;
+    }
+    .footer {
+        padding: 2rem 2rem;
+    }
+
+    .footerlinks li {
+        margin: 1rem;
+        width: 50px;
+        height: 50px;
+    }
+
+    .footerlinks .foot-link {
+        font-size: 1.4rem;
+        padding-bottom: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .Hero h2 {
+        font-size: 2.3rem;
+    }
+
+    .Hero p {
+        font-size: 1rem;
+    }
+
+    .AboutImage .img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .aboutMe {
+        padding: 8rem 0.4rem 5rem 0.4rem;
+    }
+
+    .aboutContent .paragraph {
+        text-align: center;
+        font-size: 14px;
+    }
+    .contact{
+        padding: 7rem 1.2rem 5rem 1.2rem;
+    }
+    .footer {
+        padding: 2rem 0.5rem;
+    }
+
+    .footerlinks li {
+        margin: 0.5rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .footerlinks .foot-link {
+        font-size: 1rem;
+        padding-bottom: 0.01rem;
+    }
+}
