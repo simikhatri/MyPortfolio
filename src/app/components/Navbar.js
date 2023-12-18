@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className="container-fluid">
                     <ul className="navbar-nav mb-2 sociallinks">
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" href="#" target="_blank"><IoMdMail /></Link>
+                            <Link className="nav-link" aria-current="page" href="mailto:simrankkhatri1@gmail.com" target="_blank"><IoMdMail /></Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" href="https://www.linkedin.com/in/simran-kumari-720278254/" target="_blank"><FaLinkedin /></Link>
