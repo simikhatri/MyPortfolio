@@ -65,7 +65,7 @@ const page = () => {
                                     <div  className="card-body text-center">
                                         <h5  className="card-title">HRMS</h5>
                                         <p  className="card-text">I created the HRMS project for A Hamson Inc. employees using Reactjs React Bootstrap</p>
-                                        <Link href="https://hris-portal-eight.vercel.app/" className="btn">Show  <IoMdOpen className="icon"/></Link>
+                                        <Link href="https://simikhatri.github.io/HRM-System/" className="btn">Show  <IoMdOpen className="icon"/></Link>
                                     </div>
                             </div>
                         </div>
