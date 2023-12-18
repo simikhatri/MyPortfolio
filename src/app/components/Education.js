@@ -11,7 +11,7 @@ const Education = () => {
         <h1 className={styles.eduheading}>EDUCATION</h1>
         <div className={styles.timeline}>
             <div className={`${styles.container} ${styles.leftcontainer}`}>
-                <FaGraduationCap className={styles.img}/>
+                <div className={styles.img}></div>
                 <div className={styles.textbox}>
                     <h2>BACHALOR DEGREE</h2>
                     <small>2019-2022</small>
@@ -19,7 +19,7 @@ const Education = () => {
                 </div>
             </div>
             <div className={`${styles.container} ${styles.rightcontainer}`}>
-            <FaMeta className={styles.img}/>
+            <div className={styles.img}></div>
                 <div className={`${styles.textbox} ${styles.textbox1}`}>
                     <h2>Version Control Course</h2>
                     <small>Feb-2023</small>
@@ -27,7 +27,7 @@ const Education = () => {
                 </div>
             </div>
             <div className={`${styles.container} ${styles.leftcontainer}`}>
-            <FaMeta className={styles.img}/>
+            <div className={styles.img}></div>
                 <div className={styles.textbox}>
                     <h2>Principles Of UX/UI Design Course</h2>
                     <small>Feb-2023</small>
@@ -35,7 +35,7 @@ const Education = () => {
                 </div>
             </div>
             <div className={`${styles.container} ${styles.rightcontainer}`}>
-            <FaMeta className={styles.img}/>
+            <div className={styles.img}></div>
             <div className={`${styles.textbox} ${styles.textbox1}`}>
                     <h2>Meta Front-End Developer Course</h2>
                     <small>Mar-2023</small>

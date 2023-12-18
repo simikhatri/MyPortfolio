@@ -8,7 +8,9 @@ const Experience = () => {
         <h1 className={styles.eduheading}>Experience</h1>
         <div className={styles.timeline}>
             <div className={`${styles.container} ${styles.leftcontainer}`}>
-                <div className={styles.cont}><span className={styles.dot}></span></div>
+                <div className={styles.cont}>
+                  {/* <span className={styles.dot}></span> */}
+                  </div>
                 <div className={styles.textbox}>
                     <h2>Robotics World</h2>
                     <small>React Developer | Internship</small>
@@ -16,7 +18,9 @@ const Experience = () => {
                 </div>
             </div>
             <div className={`${styles.container} ${styles.rightcontainer}`}>
-            <div className={styles.cont}><span className={styles.dot}></span></div>
+            <div className={styles.cont}>
+              {/* <span className={styles.dot}></span> */}
+              </div>
                 <div className={`${styles.textbox} ${styles.textbox1}`}>
                     <h2>A Hamson Inc.</h2>
                     <small>Front-End Developer | Internship</small>
