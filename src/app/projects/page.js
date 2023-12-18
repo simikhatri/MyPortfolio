@@ -9,7 +9,7 @@ const page = () => {
                 <h1 className="prohead">MY PROJECTS</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
                             <div  className="card">
                                 <Image src="/images/pic2.jpg"  className="card-img-top" alt="..." width={100} height={200}/>
                                     <div  className="card-body text-center">
@@ -19,7 +19,7 @@ const page = () => {
                                     </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
                             <div  className="card">
                                 <Image src="/images/pic3.jpg"  className="card-img-top" alt="..." width={100} height={200}/>
                                     <div  className="card-body text-center">
@@ -29,7 +29,7 @@ const page = () => {
                                     </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
                             <div  className="card">
                                 <Image src="/images/pic4.jpg"  className="card-img-top" alt="..." width={100} height={200}/>
                                     <div  className="card-body text-center">
@@ -39,7 +39,7 @@ const page = () => {
                                     </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
                             <div  className="card">
                                 <Image src="/images/pic5.jpg"  className="card-img-top" alt="..." width={100} height={200}/>
                                     <div  className="card-body text-center">
@@ -49,7 +49,7 @@ const page = () => {
                                     </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
                             <div  className="card">
                                 <Image src="/images/pic7.jpg"  className="card-img-top" alt="..." width={100} height={200}/>
                                     <div  className="card-body text-center">
@@ -59,7 +59,7 @@ const page = () => {
                                     </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
                             <div  className="card">
                                 <Image src="/images/pic6.jpg"  className="card-img-top" alt="..." width={100} height={200}/>
                                     <div  className="card-body text-center">
