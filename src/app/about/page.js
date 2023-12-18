@@ -13,7 +13,7 @@ import { FaPaintBrush } from "react-icons/fa";
 import { GiSheikahEye } from "react-icons/gi";
 import Education from '../components/Education';
 import Experience from '../components/Experience';
-import Skills from '../components/Skills';
+// import Skills from '../components/Skills';
 
 const page = () => {
     const handleDownload = () => {
@@ -113,7 +113,7 @@ const page = () => {
                 </div>
                 <Education/>
                 <Experience/>
-                <Skills/>
+                {/* <Skills/> */}
             </div>
         </>
     )

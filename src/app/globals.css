@@ -45,7 +45,7 @@
     color: #46A29F;
     height: 100%;
     width: 100%;
-    padding: 12rem 4rem 6rem 8rem;
+    padding: 12rem 4rem 5rem 8rem;
 }
 
 .Hero h1 {
@@ -76,7 +76,7 @@
 /* About Page Css */
 .aboutMe {
     background-color: #0B0C10;
-    padding: 6rem 3rem 5rem 3rem;
+    padding: 12rem 3rem 5rem 3rem;
     color: white;
 }
 
@@ -177,7 +177,7 @@
 }
 /* Contact Page css */
 .contact{
-    padding: 7rem 4rem 4rem 4rem;
+    padding: 13rem 4rem 4rem 4rem;
     background-color: #0B0C10;
 }
 .Contactheading{
@@ -220,7 +220,7 @@ label{
 }
 /* Projects page css */
 .project{
-    padding: 6rem 3rem 2rem 7rem;
+    padding: 13rem 4rem 4rem 4rem;
     background-color: #0B0C10;
 }
 .prohead{
@@ -234,10 +234,17 @@ text-align: center;
 .project .card {
     border: none;
     border-radius: 0;
-    background-color: #313741;
+    background-color: transparent;
     color: #67fcf2;
-    margin-bottom: 2rem;
+    margin: 1rem 1rem 2rem 1rem;
     box-shadow: rgba(126, 247, 233, 0.5) 0px 2px 8px 0px;
+    height: 400px;
+}
+.project .card .card-title{
+       font-size: 1.5rem;
+}
+.project .card .card-text{
+    color: #46A29F;
 }
 .project .card .card-img-top {
        border-top-left-radius: 0; 
@@ -263,7 +270,7 @@ text-align: center;
 }
 /* Footer CSS */
 .footer {
-    padding: 2rem 4rem;
+    padding: 5rem 4rem 1.5rem 4rem;
     background-color: #0B0C10;
     color: #66FCF1;
     text-align: center;
