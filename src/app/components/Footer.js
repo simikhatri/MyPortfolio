@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer">
                 <ul className="footerlinks">
                     <li className="foot-item">
-                        <Link className="foot-link" aria-current="page" href="#" target="_blank"><IoMdMail /></Link>
+                        <Link className="foot-link" aria-current="page" href="mailto:simrankkhatri1@gmail.com" target="_blank"><IoMdMail /></Link>
                     </li>
                     <li className="foot-item">
                         <Link className="foot-link" href="https://www.linkedin.com/in/simran-kumari-720278254/" target="_blank"><FaLinkedin /></Link>

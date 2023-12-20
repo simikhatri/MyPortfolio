@@ -12,9 +12,9 @@ const Experience = () => {
                   {/* <span className={styles.dot}></span> */}
                   </div>
                 <div className={styles.textbox}>
-                    <h2>Robotics World</h2>
-                    <small>React Developer | Internship</small>
-                    <p>May 2023 - Aug 2023</p>
+                <h2>A Hamson Inc.</h2>
+                    <small>Front-End Developer | Internship</small>
+                    <p>June 2023 - Nov 2023</p>
                 </div>
             </div>
             <div className={`${styles.container} ${styles.rightcontainer}`}>
@@ -22,9 +22,9 @@ const Experience = () => {
               {/* <span className={styles.dot}></span> */}
               </div>
                 <div className={`${styles.textbox} ${styles.textbox1}`}>
-                    <h2>A Hamson Inc.</h2>
-                    <small>Front-End Developer | Internship</small>
-                    <p>June 2023 - Nov 2023</p>
+                <h2>Robotics World</h2>
+                    <small>React Developer | Internship</small>
+                    <p>May 2023 - Aug 2023</p>
                 </div>
             </div>
         </div>
