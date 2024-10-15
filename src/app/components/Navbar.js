@@ -48,13 +48,13 @@ const Navbar = () => {
                                 <Link className="nav-link" aria-current="page" href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="about">About</Link>
+                                <Link className="nav-link" href="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="projects">Projects</Link>
+                                <Link className="nav-link" href="/projects">Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="contact">Contact</Link>
+                                <Link className="nav-link" href="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

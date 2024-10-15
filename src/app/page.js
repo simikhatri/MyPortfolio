@@ -3,9 +3,6 @@ import React from 'react'
 import Image from 'next/image'
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import Skills from './components/Skills';
-import { motion } from "framer-motion"
-import About from "./about/page"
-import Projects from "./projects/page"
 
 export default function Home() {
   const handleDownload = () => {
@@ -21,8 +18,7 @@ export default function Home() {
       <div className='Hero'>
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <motion.div className='Intro' initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}>
+            <div className='Intro'>
               <h1>Hello!</h1>
               {/* <h2>I am Simran</h2> */}
               <p className='intro'>I’m Simran, a passionate Frontend Developer with a knack for creating intuitive and dynamic user experiences. I specialize in building modern web applications using React.js, Next.js, and Redux, with a focus on clean, maintainable code. Currently working at Dolcefrutti, I’ve honed my skills in building scalable e-commerce solutions, and I’m always excited to learn new technologies.</p>
@@ -30,7 +26,7 @@ export default function Home() {
                 <button type="button" className="btn" onClick={handleDownload}>
                   <FaCloudDownloadAlt className="mx-2" size={24} />Resume</button>
               </div>
-            </motion.div>
+            </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 text-center">
             <Image className='proImage' src="/images/intro.svg" alt="" width={350} height={350} />
@@ -38,8 +34,6 @@ export default function Home() {
         </div>
       </div>
       <Skills />
-      <About />
-      <Projects />
 
     </>
   )
