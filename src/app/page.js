@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import Skills from './components/Skills';
 import { motion } from "framer-motion"
+import About from "./about/page"
+import Projects from "./projects/page"
 
 export default function Home() {
   const handleDownload = () => {
@@ -36,6 +38,9 @@ export default function Home() {
         </div>
       </div>
       <Skills />
+      <About />
+      <Projects />
+
     </>
   )
 }
