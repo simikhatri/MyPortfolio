@@ -33,6 +33,12 @@ const Skills = () => {
                                     <div className={style.progressline} style={{ maxWidth: '95%' }}></div>
                                 </div>
                             </div>
+                            <div className={style.skil}>
+                                <div className={style.subject}>Framer Motion</div>
+                                <div className={style.progressbar} value="75%">
+                                    <div className={style.progressline} style={{ maxWidth: '75%' }}></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
@@ -57,6 +63,12 @@ const Skills = () => {
                             </div>
                             <div className={style.skil}>
                                 <div className={style.subject}>NEXTJS</div>
+                                <div className={style.progressbar} value="70%">
+                                    <div className={style.progressline} style={{ maxWidth: '70%' }}></div>
+                                </div>
+                            </div>
+                            <div className={style.skil}>
+                                <div className={style.subject}>Redux Toolkit</div>
                                 <div className={style.progressbar} value="70%">
                                     <div className={style.progressline} style={{ maxWidth: '70%' }}></div>
                                 </div>

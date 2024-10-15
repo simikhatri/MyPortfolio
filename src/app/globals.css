@@ -45,7 +45,7 @@
     color: #46A29F;
     height: 100%;
     width: 100%;
-    padding: 12rem 4rem 5rem 8rem;
+    padding: 6rem 4rem 5rem 8rem;
 }
 
 .Hero h1 {
@@ -53,14 +53,8 @@
     font-weight: 600;
 }
 
-.Hero h2 {
-    font-size: 4rem;
-    font-weight: 600;
-    color: rgb(103, 252, 242);
-}
-
-.Hero p {
-    font-size: 1.5rem;
+.Hero .intro {
+    font-size: 16px;
     font-weight: 600;
     color: rgb(103, 252, 242);
 }
@@ -76,7 +70,7 @@
 /* About Page Css */
 .aboutMe {
     background-color: #0B0C10;
-    padding: 12rem 3rem 5rem 3rem;
+    padding: 6rem 3rem 4rem 3rem;
     color: white;
 }
 
@@ -220,7 +214,7 @@ label{
 }
 /* Projects page css */
 .project{
-    padding: 13rem 4rem 4rem 4rem;
+    padding: 6rem 4rem 4rem 4rem;
     background-color: #0B0C10;
 }
 .prohead{
@@ -270,7 +264,7 @@ text-align: center;
 }
 /* Footer CSS */
 .footer {
-    padding: 5rem 4rem 1.5rem 4rem;
+    padding: 3rem 4rem 1.5rem 4rem;
     background-color: #0B0C10;
     color: #66FCF1;
     text-align: center;
